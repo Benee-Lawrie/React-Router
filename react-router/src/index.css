@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+body{
+  background-color: rgb(10, 10, 10);
+  color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.logo{
+  object-fit: cover;
+  width: 4rem;
+  height: 3rem;
+  margin: 0;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  height: 5rem;
+}
+
+.navbar a{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navbar a:hover{
+  color: white;
+  border: 2px solid rgb(10, 125, 187);
+  background-color: purple;
+  border-radius: 1rem;
+  padding: 1%;
+}
+
+#home{
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0;
+  position: relative;
+}
+
+.mimi{
+  position: absolute;
+  z-index: -1;
+  top: 1rem;
+  right: 0;
+  object-fit: cover;
+  height: 100vh;
+  margin-right: 5rem;
+}
+
+.hello{
+  font-size: 1.50rem;
+  font-weight: 100;
+}
+
+.homecontent{
+  height: 100vh;
+  width: 100vh;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homename{
+  color: purple;
+}
+
+.homeparagraph{
+  font-size: medium;
+  font-weight: 100;
+  margin-top: 1rem;
+}
+
+.btn{
+  background-color: purple;
+  color: white;
+  padding: 1rem;
+  width: 6rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  margin-top: 2rem;
+}
+
+.btn:hover{
+  background-color: white;
+  color: black;
+}
+/* 
+@media screen and (max-width: 1064px) { */
+  .mimi{
+    right: -20vh;
+  }
+
+  .homecontent{
+    font-size: 8vh;
+  }
+  
+  .hello{
+    font-size: 4.5vh;
+  }
+
+  .homeparagraph{
+    font-size: 3vh;
+  }
+
+  .contact-form {
+  width: 40%;
+  margin: auto;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #ccc;
+  
+  
+}
+
+.contact-form h2 {
+  text-align: center;
+  color: #6a0573;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.contact-form textarea{
+  height: 12rem;
+}
+
+.contact-form button {
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid purple;
+  border-radius: 7px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: white; 
+  color: black;
+}
+
+.box{
+  height: auto;
+  width: 100%;
+  margin-top: 5rem;
+  display: flex; 
+}
+
+.box div {
+  background-color: #ebeaea;
+  border-radius: 0.3rem;
+  width: 30% ;
+  padding: 0.5rem;
+  margin-left: 1.7rem;
+  justify-content: space-around;
+}
+
+.boximg{
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  color: white;
+  background-color: #6a0573;
+  margin-left: 6.5rem;
+  margin-top: 2rem;
+}
+
+.boxtext{
+  color: black;
+  font-size: large;
+  width: 20rem;
+  padding: 1rem;
+  margin-right: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+ 
+#skills{
+  overflow: hidden;
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto ;
+}
+
+.skillTitle{
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.skillDesc{
+  font-weight: 200;
+  font-size: 1rem;
+  padding: 0 2rem;
+}
+
+.skillbar{
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  display: flex;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  background-color: rgb(58, 58, 58);
+}
+
+.skillbarimg{
+ object-fit: cover;
+ height: 3rem;
+ width: 3rem;
+ margin-right: 2rem;
+}
+
+.skillbartext h2{
+  text-align: left;
+}
+
+.skillbartext p{
+  font-size: 0.9rem;
+  font-weight: 200;
+  text-align: left;
+  color: rgb(225, 221, 221);
+}
+
+
+
+  
+
